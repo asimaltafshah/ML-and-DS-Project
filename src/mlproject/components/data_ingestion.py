@@ -34,7 +34,7 @@ class DataIngestion:
    # saving Train data
    train_set.to_csv(self.ingestion_config.train_data_path,index=False,header=True)
 
-   # saving Train data
+   # saving Test data
    test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)
 
    logging.info("Data Ingestion is completed")
